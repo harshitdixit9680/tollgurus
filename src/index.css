@@ -1,5 +1,6 @@
 body {
   margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +12,169 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Mulish&family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  /* background-color: #191d2b; */
+}
+.navbar {
+  background-color: #333 !important;
+}
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #ffff !important;
+}
+
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #ffff;
+  margin: 6px;
+}
+
+.menu-active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover {
+  color: #3498db !important;
+}
+
+
+.img-fluidi{
+  max-width: 98%;
+    height: auto;
+}
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.2rem !important;
+  }
+
+  .menu-active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+
+
+
+/* This Is A   Side*/
+
+
+ h1{
+  margin: 0 0 10px 0;
+  font-size: 44px;
+  font-weight: 700;
+  color: black;
+} 
+
+ h2{
+
+  color: #484848;
+  font-size: 22px;
+} 
+
+.brand-name {
+  color: #ffa323;
+}
+
+.btn-get-started{
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #6f84ff;
+  border: 2px solid #6f84ff;
+  text-decoration: none;
+}
+
+ .btn-get-started:hover{
+  
+  background: #6f84ff;
+  color: #fff;
+}
+.btn-get-start{
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #1BA098;
+  border: 2px solid #1BA098;
+  text-decoration: none;
+}
+
+ .btn-get-start:hover{
+  
+  background: #1BA098;
+  color: #fff;
+}
+.btn-get-blog{
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #FF6A3D;
+  border: 2px solid #FF6A3D;
+  text-decoration: none;
+}
+
+ .btn-get-blog:hover{
+  
+  background: #FF6A3D;
+  color: #fff;
+}
+
+-img{
+  text-align: 95%;
+}
+
+.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+
+@-webkit-keyframes up-down{
+0%{
+  transform: translateY(10px);
+}
+100%{
+  transform: translateY(-10px);
+}
+}
+@keyframes up-down{
+0%{
+  transform: translateY(10px);
+}
+100%{
+  transform: translateY(-10px);
+}
+}
+
+.wit{
+  height: 276px;
+}
+
+
+
+.col-10 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+
+

@@ -36,3 +36,242 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Miss+Fajardose&display=swap');
+
+.heading-section .subheading {
+    position: absolute;
+    /* top: -48px; */
+    left: 0;
+    right: 0;
+    font-weight: normal;
+    font-size: 7rem;
+    display: block;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.2);
+    color: #e0a047;
+    line-height: 1;
+    font-family: "Miss Fajardose", cursive;
+    /* margin-top: -13px; */
+    z-index: -1;
+}
+   .h2 {
+        font-weight: 600 !important;
+    }
+    .WOO{
+      font-size: 50px;
+      color: rgb(89 78 123);
+      font-weight: 600;
+      padding-top:50px;
+  }
+    .WOOo{
+      font-size: 5em;
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+      padding-top:50px;
+  }
+
+  .head{
+    font-weight: 500;
+    /* color: #ffff; */
+  
+    }
+    .smalll {
+      /* color: white; */
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+
+    .para{
+      /* color: #ffff; */
+    font-size: 1.5rem;
+    font-weight: 300;
+    }
+
+    .container-center {
+      border-radius: 66px;
+      color: #000000;
+      background: #426e6b;
+      box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+      padding: 14px 80px 18px 36px;
+      margin: 30px;
+      cursor: pointer;
+    }
+
+    .container-center :hover {
+      transform: scale(1.05);
+      color: #1A2238;
+      box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
+
+    /* blog css start */
+    .blogcontainer{
+      color: #fff;
+      /* margin: 0 88px; */
+  }
+
+  .blogitem{
+    margin: 24px;
+    /* font-family: 'Fira Sans', sans-serif; */
+}
+
+p{
+  
+    /* font-family: 'Fira Sans', sans-serif; */
+    font-family: 'Source Code Pro', monospace;
+}
+
+.blogitem{
+    margin: 24px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+/* Intro Section css Start */
+
+
+.intro h2{
+  font-family: 'Fira Sans', sans-serif;
+  margin: 12px;
+}
+
+.intro p{
+  font-family: 'Source Code Pro', monospace;
+  margin: 12px;
+}
+.skllsContainer{
+  padding: 12px;
+}
+
+.skill{
+  width: 265px;
+  height: 6px;
+  background-color: red;
+}
+
+
+.hundered{
+  width: 265px;
+  background-color: blueviolet;
+}
+
+.fifty{
+  width: 125px;
+  background-color: aqua;
+}
+
+.t5{
+  width: 75px;
+  background-color:yellow;
+}
+
+
+@media (min-width: 500px) {
+  .SOME{
+    margin-right: 25px;
+  }
+ }
+
+
+ 
+/* Contact Page */
+.contactform{
+  font-family: 'Fira Sans', sans-serif;    
+  /* padding: 0 34px; */
+  /* padding-top: 144px; */
+  margin: 0 40px;
+  color: white;
+}
+.contactform h1{
+  /* font-family: 'Fira Sans', sans-serif;     */
+  font-family: 'Source Code Pro', monospace;
+  /* text-align: center; */
+  /* padding: 12px 0; */
+}
+
+.contactform form div{
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.contactform form div input{
+  /* padding: 10px 0; */
+  /* width: 26vw; */
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+
+}
+
+
+#form-check{
+flex-direction: row;
+}
+
+#form-check input{
+  width: 24px;
+  margin: 3px 0;
+}
+#emailHelp{
+  font-size: 12px;
+  color: midnightblue;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+
+
+.btn1{
+  margin-top: 34px;
+  padding: 9px 14px;
+  color: white;
+  background-color: dodgerblue;
+  background-color: #27AE60;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0 3px;
+  border-radius: 22px;
+  cursor: pointer;
+
+
+}
+
+
+.btn1-sm{
+  font-size: 14px;
+  padding: 10px;
+  margin: 12px 0;
+}
+
+.btn1:hover{
+  color:dodgerblue;
+  /* background-color: dodgerblue; */
+  background-color: white;
+}
+
+
+/* height of the container */
+.leaflet-container {
+  height: 50vh;
+  width: 55%;
+  border-radius: 2rem;
+}
+
+.cluster-icon {
+  background-color: #333;
+  height: 2em;
+  width: 2em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  box-shadow: 0 0 0px 5px #fff;
+}
